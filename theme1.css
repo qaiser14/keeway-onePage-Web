@@ -1,0 +1,949 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#container{
+
+    width: 100%;
+    height: auto;
+}
+
+#home{
+
+    width: 100%;
+    height: 100vh;
+    background: url(./keeway1.jpg); 
+    background-position: 80% 80%;
+
+}
+
+#nav{
+
+    width: 48%;
+    height: 70px;
+
+}
+
+#logo{
+
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+#nav ul{
+
+    position: relative;
+    left: 700px;
+    top: 20px;
+
+}
+
+#nav li{
+
+    list-style: none;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    color: #ffffff
+}
+
+#text{
+
+    width: 40%;
+    height: 200px;
+
+}
+
+#text h1{
+
+    position: absolute;
+    left: 400px;
+    top: 170px;
+    color: #ffffff;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#text p{
+
+    position: absolute;
+    left: 420px;
+    top: 230px;
+    color: #ffffff;
+
+}
+
+#text button{
+
+    position: absolute;
+    left: 610px;
+    top: 310px;
+    color: #ffffff;
+    background: #10ede9;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+#about{
+
+    width: 100%;
+    height: 900px;
+    position: relative;
+
+}
+
+#feature{
+
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+}
+
+#feature h1{
+
+    position: absolute;
+    left: 500px;
+    top: 10px;
+}
+
+#f1{
+
+    width: 15%;
+    height: 200px;
+    background: #10ede9;
+    position: absolute;
+    left: 120px;
+    top: 85px;
+    border-radius: 90px;
+
+}
+
+#f1 h4{
+
+    position: absolute;
+    left: 30px;
+    top: 50px;
+}
+
+#f1 p{
+
+    position: absolute;
+    left: 15px;
+    top: 90px;
+    font-size: 13px;
+}
+
+
+#f2{
+
+    width: 15%;
+    height: 200px;
+    background: #10ede9;
+    position: absolute;
+    left: 420px;
+    top: 85px;
+    border-radius: 90px;
+}
+
+#f2 h4{
+
+    position: absolute;
+    left: 45px;
+    top: 50px;
+}
+
+#f2 p{
+
+    position: absolute;
+    left: 15px;
+    top: 90px;
+    font-size: 13px;
+}
+
+#f3{
+
+    width: 15%;
+    height: 200px;
+    background: #10ede9;
+    position: absolute;
+    left: 720px;
+    top: 85px;
+    border-radius: 90px;
+}
+
+#f3 h4{
+
+    position: absolute;
+    left: 40px;
+    top: 50px;
+}
+
+#f3 p{
+
+    position: absolute;
+    left: 15px;
+    top: 90px;
+    font-size: 13px;
+
+}
+
+#f4{
+
+    width: 15%;
+    height: 200px;
+    background: #10ede9;
+    position: absolute;
+    left: 1020px;
+    top: 85px;
+    border-radius: 90px;
+
+}
+
+#f4 h4{
+
+    position: absolute;
+    left: 35px;
+    top: 50px;
+}
+
+#f4 p{
+
+    position: absolute;
+    left: 15px;
+    top: 90px;
+    font-size: 13px;
+}
+
+#skills{
+
+    width: 100%;
+    height: 500px;
+    background: #f7f9f9;
+}
+
+#skills h1{
+
+    position: absolute;
+    left: 570px;
+    top: 440px;
+}
+
+#skills h2{
+
+    position: absolute;
+    left: 80px;
+    top: 560px;
+}
+
+#skills p{
+
+    position: absolute;
+    left: 80px;
+    top: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#skills ul{
+
+    position: absolute;
+    left: 96px;
+    top: 690px;
+    color: #10ede9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#shows{
+
+    width: 50%;
+    height: 370px;
+    /* background: green; */
+    position: relative;
+    left: 640px;
+    top: 120px;
+}
+
+#design{
+
+    width: 80%;
+    height: 5px;
+    background: #41d8d8;
+    position: relative;
+    top: 18%;
+    left: 10%;    
+}
+
+#design h3{
+
+    position: absolute;
+    bottom: 15px;
+}
+
+#design h5{
+
+    position: absolute;
+    bottom: 15px;
+    left: 94%;
+}
+
+#development{
+
+    width: 75%;
+    height: 5px;
+    background: #41d8d8;
+    position: relative;
+    top: 35%;
+    left: 10%;
+}
+
+#development h3{
+
+    position: absolute;
+    bottom: 15px;
+
+}
+
+#development h5{
+
+    position: absolute;
+    bottom: 15px;
+    left: 94%;
+}
+
+#marketing{
+
+    width: 65%;
+    height: 5px;
+    background: #41d8d8;
+    position: relative;
+    top: 52%;
+    left: 10%;
+}
+
+#marketing h3{
+
+    position: absolute;
+    bottom: 15px;
+
+}
+
+#marketing h5{
+
+    position: absolute;
+    bottom: 15px;
+    left: 94%;
+}
+
+#photography{
+
+    width: 50%;
+    height: 5px;
+    background: #41d8d8;
+    position: relative;
+    top: 69%;
+    left: 10%;
+}
+
+#photography h3{
+
+    position: absolute;
+    bottom: 15px;
+
+}
+
+#photography h5{
+
+    position: absolute;
+    bottom: 15px;
+    left: 94%;
+}
+
+#services{
+
+    width: 100%;
+    height: 420px;
+}
+
+#services h1{
+
+    position: absolute;
+    left: 570px;
+    top: 1640px;
+}
+
+#consultancy h2{
+
+    position: absolute;
+    left: 100px;
+    top: 1720px;
+}
+
+#consultancy p{
+
+    position: absolute;
+    left: 100px;
+    top: 1760px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#finance h2{
+
+    position: absolute;
+    left: 500px;
+    top: 1720px;
+}
+
+#finance p{
+
+    position: absolute;
+    left: 500px;
+    top: 1760px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#advertising h2{
+
+    position: absolute;
+    left: 900px;
+    top: 1720px;
+}
+
+#advertising p{
+
+    position: absolute;
+    left: 900px;
+    top: 1760px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#planning h2{
+
+    position: absolute;
+    left: 100px;
+    top: 1840px;
+}
+
+#planning p{
+
+    position: absolute;
+    left: 100px;
+    top: 1880px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#onlinesupport h2{
+
+    position: absolute;
+    left: 500px;
+    top: 1840px;
+}
+
+#onlinesupport p{
+
+    position: absolute;
+    left: 500px;
+    top: 1880px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#superidea h2{
+
+    position: absolute;
+    left: 900px;
+    top: 1840px;
+}
+
+#superidea p{
+
+    position: absolute;
+    left: 900px;
+    top: 1880px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#work{
+
+    width: 100%;
+    height: 700px;
+    background: #f7f9f9;
+    position: relative;
+}
+
+#work h1{
+
+    position: absolute;
+    left: 570px;
+    top: 30px;
+}
+
+#work ul li{
+
+    position: relative;
+    left: 460px;
+    top: 100px;
+    float: left;
+    list-style: none;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid #999999;
+}
+
+#work ul li:hover{
+
+    background: #41d8d8;
+    border: 1px solid #10ede9;
+    cursor: pointer;
+}
+
+#work1 img{
+
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 60px;
+    top: 230px;
+}
+
+#work2 img{
+
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 470px;
+    top: 230px;
+}
+
+#work3 img{
+
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 880px;
+    top: 230px;
+}
+
+#team{
+
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+#team h1{
+
+    position: absolute;
+    left: 570px;
+    top: 30px;
+}
+
+#team1 img{
+
+    width: 370px;
+    height: 400px;
+    position: absolute;
+    left: 60px;
+    top: 150px;
+
+}
+
+#team2 img{
+
+    width: 370px;
+    height: 400px;
+    position: absolute;
+    left: 470px;
+    top: 150px;
+
+}
+
+
+#team3 img{
+
+    width: 370px;
+    height: 400px;
+    position: absolute;
+    left: 880px;
+    top: 150px;
+
+}
+
+#price{
+
+    width: 100%;
+    height: 700px;
+    background: #f7f9f9;
+    position: relative;    
+
+}
+
+#price h1{
+
+    position: absolute;
+    left: 570px;
+    top: 30px;
+
+}
+
+#price1{
+
+    width: 27%;
+    height: 460px;
+    background: #10ede9;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+
+#price1 h2{
+
+    position: absolute;
+    left: 140px;
+    top: 40px;
+}
+
+#price1 h3{
+
+    position: absolute;
+    left: 120px;
+    top: 80px;
+    font-size: 36px;
+}
+
+#price1 table{
+
+    position: absolute;
+    left: 30px;
+    top: 140px;
+
+}
+
+#price1 table tr td{
+
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+#price2{
+
+    width: 27%;
+    height: 460px;
+    background: #3399ff;
+    position: absolute;
+    top: 140px;
+    left: 500px;
+}
+
+#price2 h2{
+
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    color: #ffffff;
+}
+
+#price2 h3{
+
+    position: absolute;
+    left: 120px;
+    top: 80px;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+#price2 table{
+
+    position: absolute;
+    left: 30px;
+    top: 140px;
+
+}
+
+#price2 table tr td{
+
+    border: 1px solid #ffffff;
+    padding: 10px;
+    color: #ffffff;
+}
+
+#price3{
+
+    width: 27%;
+    height: 460px;
+    background: #10ede9;
+    position: absolute;
+    top: 140px;
+    left: 900px;
+}
+
+#price3 h2{
+
+    position: absolute;
+    left: 130px;
+    top: 40px;
+}
+
+#price3 h3{
+
+    position: absolute;
+    left: 120px;
+    top: 80px;
+    font-size: 36px;
+}
+
+#price3 table{
+
+    position: absolute;
+    left: 30px;
+    top: 140px;
+
+}
+
+#price3 table tr td{
+
+    border: 1px solid #000;
+    padding: 10px;
+
+}
+
+#blog{
+
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+#blog h1{
+
+    position: absolute;
+    left: 570px;
+    top: 30px;
+}
+
+#blog1 img{
+
+    width: 370px;
+    height: 220px;
+    position: absolute;
+    left: 80px;
+    top: 130px;
+}
+
+#blog1 h3{
+
+    position: absolute;
+    top: 365px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#blog1 p{
+
+    position: absolute;
+    top: 405px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8f9191;
+
+}
+
+#blog1 button{
+
+    background: #999999;
+    border: none;
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 485px;
+    left: 100px;
+    cursor: pointer;
+
+}
+
+#blog1 button:hover{
+
+    background: #10ede9;
+    border: none;
+}
+
+#blog2 img{
+
+    width: 370px;
+    height: 220px;
+    position: absolute;
+    left: 490px;
+    top: 130px;
+}
+
+#blog2 h3{
+
+    position: absolute;
+    top: 365px;
+    left: 510px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#blog2 p{
+
+    position: absolute;
+    top: 405px;
+    left: 510px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8f9191;
+
+}
+
+#blog2 button{
+
+    background: #999999;
+    border: none;
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 485px;
+    left: 510px;
+    cursor: pointer;
+
+}
+
+#blog2 button:hover{
+
+    background: #10ede9;
+    border: none;
+}
+
+#blog3 img{
+
+    width: 370px;
+    height: 220px;
+    position: absolute;
+    left: 900px;
+    top: 130px;
+}
+
+#blog3 h3{
+
+    position: absolute;
+    top: 365px;
+    left: 920px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#blog3 p{
+
+    position: absolute;
+    top: 405px;
+    left: 920px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8f9191;
+
+}
+
+#blog3 button{
+
+    background: #999999;
+    border: none;
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 485px;
+    left: 920px;
+    cursor: pointer;
+
+}
+
+#blog3 button:hover{
+
+    background: #10ede9;
+    border: none;
+}
+
+#contact{
+
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: #f7f9f9;
+}
+
+#contact h1{
+
+    position: absolute;
+    left: 570px;
+    top: 30px;
+}
+
+#contact h2{
+
+    position: absolute;
+    left: 350px;
+    top: 170px;
+}
+
+#in input{
+
+    width: 24%;
+    height: 35px;
+    position: absolute;
+    left: 350px;
+    top: 230px;
+}
+
+#in1 input{
+
+    width: 24%;
+    height: 35px;
+    position: absolute;
+    left: 700px;
+    top: 230px;
+}
+
+#in2 input{
+
+    width: 50%;
+    height: 35px;
+    position: absolute;
+    left: 350px;
+    top: 300px;
+}
+
+#in3 textarea{
+
+    width: 50%;
+    height: 85px;
+    position: absolute;
+    left: 350px;
+    top: 370px;
+}
+
+#contact button{
+
+    width: 120px;
+    height: 40px;
+    background: #10ede9;
+    position: absolute;
+    left: 350px;
+    top: 530px;
+    border: none;
+    border-radius: 5px;    
+}
+
+#footer{
+
+    width: 100%;
+    height: 50px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px;
+}
